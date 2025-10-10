@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul li{
+    margin-right: 10px;
+}
+header ul li a:link, :visited{
+    color: blue;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: white;
+    /* border: 1px solid black; */
+    background-color: black;
+}
+header form input{
+    width: 30vw;
+}
